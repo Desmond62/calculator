@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    background-image: url('image/sky.jpg');
+    height: 100%;
+} */
+
+.con h4{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 25px;
+    text-shadow: 7px 7px 14px rgb(50, 49, 49);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+animation: mymove 5s infinite ;
+}
+@keyframes mymove{
+0% {color: red;}
+50% {color: white;}
+100% {color: blue;}
+}
+
+.container{
+    max-width: 250px;
+    height: 410px;
+    margin: auto;
+    background-color: black;
+    margin-top: 100px;
+    text-align: center;
+    padding: 30px 0px 0px 0px;  
+    border-radius: 20px;
+    border: 2px solid blue;
+    box-shadow: 7px 7px 14px black;
+    transition: .3s ease-in;
+}
+
+.container:hover{
+    transform: scale(1.4);
+}
+::placeholder{
+    float: right;
+}
+.form input{
+
+    width: 80%;
+    padding: 15px;
+    outline: none;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+.btn{
+    margin: 30px 0px 0px 0px;
+
+}
+.btn button{
+    padding: 5px 14px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    background-color: blue;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 800;
+    animation: move 5s infinite ;
+}
+
+@keyframes move{
+    0% {color: black;}
+    50% {color: white;}
+    100% {color: goldenrod;}
+    }
+.btn2{
+    margin: 10px 0px 0px 0px;
+
+}
+.mul{
+    animation: mov 1s infinite ;  
+}
+@keyframes mov{
+    0% {color: black;}
+    50% {color: red;}
+    100% {color: blue;}
+    }
+.btn2 button{
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 14px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+}
